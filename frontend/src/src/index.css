@@ -1,5 +1,9 @@
 body {
   margin: 0;
   font-family: sans-serif;
-  background-color: #f9f9f9;
+  background-color: #f4f4f4;
+}
+
+#root {
+  padding: 2rem;
 }
