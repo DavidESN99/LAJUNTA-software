@@ -1,1 +1,9 @@
-// Backend inicial para LA JUNTA resto-bar
+const express = require("express");
+const app = express();
+
+// ... tus rutas, middlewares, etc.
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Servidor corriendo en el puerto ${PORT}`);
+});
